@@ -1,0 +1,24 @@
+prompt_log.txt
+
+Phase 1 Model/Tools Log
+Date compiled: 2026-03-22
+
+AI model used:
+- GPT-5.3-Codex
+
+Exact user prompts that shaped Phase 1:
+1. I want to create pacman using pygame. I want you to create the map layout. This is how the map should look like.
+
+2. good now create the sprites in their starting positions and a score tracker at the top of the app and the number of lives the player has on the bottom left which is represented by the amount of pacman sprites
+
+3. make the enemy sprites slighlty bigger
+
+4. good now make the map path a little wider so it doesnt look condensed and the sprotes can easyily move through the path
+
+5. good now add the functionality to let the pacman sprite move in the direction of the the arrow keys, the pacman sprite should only move when the user is pressing one of the arrow keys
+
+6. fix the map to allow the pacman sprite be able to access all the white circle points currently there are certain parts in the map that the pacman sprite can not reach
+
+7. ok now let the enemy sprites constantly move randomly and they first spend 3 seconds in their starting box and then leave and roam around the map at a consant speed randomly
+
+8. no after 3 seconds all enemy sprites should exit that starting box and can not go back into it unless they die . once u have done this then go into the code and make sure it is clearly readable and well documented. then create a readme explaining how to run the program, what the program currently does, and a section called next steps: in that section you should say the next steps are to allow the pacman sprite to get points as it moves and collects the white dots, as it does that the white dots should disapper and the points should increase, if an enemy sprite hits the pacman the pacman looses 1 life and if it runs out of 3 lives the game is over, if the pacman captures the big circles then for 8 seconds the pacman should be able to kill enemy sprites getting extra points and the enemy sprites should return back to their starting box and in 3 seconds they exit the box. and when the pacman gets the big circle the enemy sprites should turn blue
